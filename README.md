@@ -16,6 +16,6 @@ cp .env.example .env
 Update the .env file you just copied for your own API_KEY.
 Go to public directory then run the internal development server to try
 ```bash
-cd public
+cd src/public
 php -S localhost:8080
 ```
