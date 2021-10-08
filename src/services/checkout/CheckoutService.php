@@ -38,12 +38,19 @@ class CheckoutService {
 
         // return json_encode($params);
 
-        Xendit::setApiKey($apiKey);
         header('Content-Type: application/json');
+        $response = [];
 
-        $createdInvoice = \Xendit\Invoice::create($params);
+        try {
+            Xendit::setApiKey($apiKey);
 
-        return json_encode($createdInvoice);
+            $response = \Xendit\Invoice::create($params);
+        } catch (\Exception $e) {
+            http_response_code(501);
+            $response['message'] = $e->getMessage();
+        }
+
+        return json_encode($response);
     }
 
     private function value($value) {
