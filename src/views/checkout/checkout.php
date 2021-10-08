@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </h2>
                             <div class="panel-configure__message">
                                 Xendit is the leading payment gateway for
-                                Indonesia and Southeast Asia.
+                                Indonesia, Philipines and Southeast Asia.
                             </div>
                             <div class="panel-configure__tip">
                                 Select country and integration to view how we
