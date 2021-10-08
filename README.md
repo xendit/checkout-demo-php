@@ -2,7 +2,8 @@
 Vanilla PHP version of Xendit Demo
 
 ## Requirement
-Composer is required. Get composer from https://getcomposer.org/download/
+- PHP >= 7.3+
+- Composer is required. Get composer from https://getcomposer.org/download/
 
 ## Installation
 After cloning this repository, just do:
