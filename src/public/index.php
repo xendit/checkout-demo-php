@@ -13,7 +13,7 @@ $app = new Application();
 $app->router->get('/', 'checkout/checkout');
 $app->router->get('/try-checkout', 'checkout/try-checkout');
 $app->router->get('/api/health', function() {
-    header('Conten-Type: application/json');
+    header('Content-Type: application/json');
     return json_encode(['ok']);
 });
 

@@ -39,7 +39,7 @@ class CheckoutService {
         // return json_encode($params);
 
         Xendit::setApiKey($apiKey);
-        header('Conten-Type: application/json');
+        header('Content-Type: application/json');
 
         $createdInvoice = \Xendit\Invoice::create($params);
 
