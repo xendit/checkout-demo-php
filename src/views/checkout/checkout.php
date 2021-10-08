@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li>
                                 <a
                                     class="header__link-github"
-                                    href="https://github.com/xendit/checkout-demo"
+                                    href="https://github.com/xendit/checkout-demo-php"
                                     target="_blank"
                                     >View Sample Code</a
                                 >
