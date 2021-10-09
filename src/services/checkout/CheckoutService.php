@@ -46,7 +46,7 @@ class CheckoutService {
 
             $response = \Xendit\Invoice::create($params);
         } catch (\Exception $e) {
-            http_response_code(501);
+            http_response_code($e->getCode());
             $response['message'] = $e->getMessage();
         }
 
