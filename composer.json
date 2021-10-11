@@ -1,0 +1,22 @@
+{
+    "name": "xendit/demo-native-php8",
+    "description": "Vanilla PHP Xendit Demo",
+    "type": "project",
+    "author": [
+        {
+            "name": "Xendit",
+            "email": "xendit-demo@xendit.co"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "xendit/xendit-php": "^2.13",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
