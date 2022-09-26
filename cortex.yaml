@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: checkout-demo-php
+  description: checkout-demo-php
+  x-cortex-tag: checkout-demo-php
+  x-cortex-git:
+    github:
+      repository: xendit/checkout-demo-php
+  x-cortex-owners:
+  - type: GROUP
+    name: xendit/api-full-time
